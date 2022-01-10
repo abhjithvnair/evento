@@ -6,7 +6,8 @@ body{
 
 #header {
     height: 30px;
-    background-color:lightpink;
+    background-color:#C71585;
+    background-attachment: fixed;
 }
 
 a{
@@ -33,11 +34,11 @@ a{
 /* Search Css */
 #search{
     height: 400px;
-    background-image:url("C:\\Users\\clubc\\Desktop\\cake.png") ;
+    background-image:url("F:\\SRM BTECH Mechatronics\\Full Stack\\Img Files\\Needed Img Files\\NBG.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 600px;
-    background-image (opacity: 0.4;)
+   
     
 }
 
@@ -62,7 +63,7 @@ a{
 }
 
 #heading{
-    margin-left: 29%;
+    margin-left: 23%;
     margin-top: 13%;
     position: absolute;
     font-size:45px;
@@ -72,21 +73,25 @@ a{
 .dropdown{
     height:60px;
     width:60%;
-    margin-left: 27%;
+    margin-left:38%;
     margin-top: 19%;
     position: absolute;
+    color:red;
 }
 
 select{
     height:60px;
-    width:35%
+    width:35%;
+
 }
 
-.selectbakery{
-    width:35%
-}
 
-/* Quick Search */
+/* HOT OFFERS */
+
+#HotOffer{
+    height:3px;
+    margin-right: 30;
+}
 #QuickSearch{
     width:80%;
     margin-left:10%;
@@ -94,13 +99,15 @@ select{
     display: inline-block
 }
 
+/* Quick Search */
+
 #QuickHeading{
     display:block;
     color:#ac2e31;
     font-size:30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    margin-left: 2%;
+    margin-left: 45%;
 }
 
 
@@ -112,6 +119,7 @@ select{
     font-weight: bold;
     margin-left: 2%;
 }
+
 
 .tileContainer{
     height:180px;

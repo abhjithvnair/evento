@@ -1,0 +1,202 @@
+    
+{
+    "city":[
+        {
+          "_id": 1,
+          "city_name": "Ahmedabad",
+          "city": 1,
+        },
+     
+        {
+          "_id": 2,
+          "city_name": "Amreli",
+          "city": 2,
+        },
+    
+        {
+          "_id": 3,
+          "city_name": "Anand",
+          "city": 3,
+        },
+    
+        {
+          "_id": 4,
+          "city_name": "Aravalli",
+          "city": 4,
+        },
+    
+        {
+          "_id": 5,
+          "city_name": "Banaskantha",
+          "city": 5,
+        },
+    
+        {
+          "_id": 6,
+          "city_name": "Bharuch",
+          "city": 6,
+        },
+    
+        {
+          "_id": 7,
+          "city_name": "Bhavnagar",
+          "city": 7,
+        },
+    
+        {
+          "_id": 8,
+          "city_name": "Botad",
+          "city": 8,
+        },
+    
+        {
+          "_id": 9,
+          "city_name": "Chhota Udepur",
+          "city": 9,
+        },
+    
+        {
+          "_id": 10,
+          "city_name": "Dahod",
+          "city": 10,
+        },
+    
+        {
+          "_id": 11,
+          "city_name": "Dangs",
+          "city": 11,
+        },
+    
+        {
+          "_id": 12,
+          "city_name": "Devbhoomi Dwarka",
+          "city": 12,
+        },
+    
+        {
+          "_id": 13,
+          "city_name": "Gandhinagar",
+          "city": 13,
+        },
+    
+        {
+          "_id": 14,
+          "city_name": "Gir Somnath",
+          "city": 14,
+        },
+    
+        {
+          "_id": 15,
+          "city_name": "Jamnagar",
+          "city": 15,
+        },
+    
+        {
+          "_id": 16,
+          "city_name": "Junagadh",
+          "city": 16,
+        },
+    
+        {
+          "_id": 17,
+          "city_name": "Kachchh",
+          "city": 17,
+        },
+    
+        {
+          "_id": 18,
+          "city_name": "Kheda ",
+          "city": 18,
+        },
+  
+        {
+          "_id": 19,
+          "city_name": "Mahisagar",
+          "city": 19,
+        },
+
+        {
+          "_id": 20,
+          "city_name": "Mehsana",
+          "city": 20,
+        },
+        
+        {
+          "_id": 21,
+          "city_name": "Morbi",
+          "city": 21,
+        },
+
+        {
+          "_id": 22,
+          "city_name": "Narmada ",
+          "city": 22,
+        },
+
+        {
+          "_id": 23,
+          "city_name": "Navsari",
+          "city": 23,
+        },
+
+        {
+          "_id": 24,
+          "city_name": "Panchmahal",
+          "city": 24,
+        },
+
+        {
+          "_id": 25,
+          "city_name": "Patan",
+          "city": 25,
+        },
+
+        {
+          "_id": 26,
+          "city_name": "Porbandar",
+          "city": 26,
+        },
+
+        {
+          "_id": 27,
+          "city_name": "Rajkot",
+          "city": 27,
+        },
+
+        {
+          "_id": 28,
+          "city_name": "Sabarkantha ",
+          "city": 28,
+        },
+
+        {
+          "_id": 29,
+          "city_name": "Surat",
+          "city": 29,
+        },
+
+        {
+          "_id": 30,
+          "city_name": "Surendranagar",
+          "city": 30,
+        },
+
+        {
+          "_id": 31,
+          "city_name": "Vyara",
+          "city": 31,
+        },
+
+        {
+          "_id": 32,
+          "city_name": "Vadodara",
+          "city": 32,
+        },
+
+        {
+          "_id": 33,
+          "city_name": "Valsad",
+          "city": 33,
+        },
+
+    ]
