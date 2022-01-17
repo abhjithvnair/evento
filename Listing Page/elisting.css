@@ -3,7 +3,7 @@ body {
 }
 
 /* Start Of Header */
-#header {
+header {
     height:68px;
 }
 
@@ -20,10 +20,21 @@ body {
 .dropdown{
     height: 60px;
     width: 50%;
-    border: 1px solid black;
     float: left;
     margin-left: 23%;
     margin-top: -4%;
+}
+
+select{
+    height:50px;
+    width:40%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.city-select{
+    height:50px;
+    width:40%;
 }
 
 #info {
@@ -44,17 +55,15 @@ body {
     
 }
 
-a{
-    text-decoration: none;
-    color: white;
-}
+/* End of Header */
 
 /* Start Of Main */
 #main{
-    height: 900px;
+    height: 950px;
     display: inline-block;
 }
 
+/* Menu Bar */
 #menubar{
     height: 30px;
     width: 100%;
@@ -64,29 +73,70 @@ a{
     background-color: rgb(63, 63, 228);
 }
 
-#headingbox{
-    height:60px;
-    width: 60%;
-    border: 1px solid black;
-    position: absolute;
-    margin-top: 3%;
-    margin-left: 2%;
+#menu{
+    margin-left: 10%;
 }
 
+.mbutton{
+    font-style: Bold;
+    padding-left: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: white !important;
+}
+/* End of Menu Bar */
+
+/* Searching Box */
+#search{
+    height:60px;
+    width:60%;
+    position:absolute;
+    margin-top: 3%;
+    margin-left: 23%;
+    border-radius: 5%;
+    box-shadow: 1px 2px 1px grey;   
+}
+
+#slength{
+    width:100%;
+    height:60px;
+    font-size:25px;
+}
+/* End of Searching Box */
+
+/* Start of Listing page */
+#headingbox{
+    height:45px;
+    width: 60%;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 8%;
+    font-size: 25px;
+    font-style: bold;
+    font-family: georgia, arial;
+    color:rgb(128, 126, 126);
+}
+
+
+/*  Start of Filter Section */
 #filterbox{
     height:500px;
     width:15%;
     position: absolute;
-    margin-top: 8%;
+    margin-top: 13%;
     margin-left: 2%;
     border: 1px solid black;
 }
+/*  ENd of Filter Section */
 
+/*  Start of Listing Conatiners */
 #listingsection{
     height:800px;
     width:79%;
     position: absolute;
-    margin-top: 6%;
+    margin-top: 10%;
     margin-left: 19%;
 }
 
@@ -97,26 +147,33 @@ a{
     float: left;
     margin-top: 4%;
     margin-left: 4%;
-    display: inline-block;
     border-radius: 10%;
     box-shadow: 2px 5px 2px gray;
 }
 
 .box0{
-    height:260px;
+    height:255px;
     width: 100%;
-    border: 1px solid black;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+.box0 > img{
+    height: 253px;
+    width: 100%;
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
 }
 
 .box1{
-    height:70px;
+    height:75px;
     width: 100%;
     border: 1px solid black;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
 }
+/* End of Listing Conatiners */
+
 /* Start Of Footer */
 #footer{
     height:50px;
