@@ -1,8 +1,318 @@
-body{
+body {
     margin:auto;
 }
 
-header{
-    height: 100px;
-    border: 1px solid black;
+/* Start of Header */
+header {
+    height:68px;
 }
+
+#logo{
+    height: 60px;
+    width: 20%;
+}
+
+.icon{
+    height:60px;
+    width: 100%;
+}
+
+.dropdown{
+    height: 60px;
+    width: 50%;
+    float: left;
+    margin-left: 23%;
+    margin-top: -4%;
+}
+
+select{
+    height:50px;
+    width:40%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.city-select{
+    height:50px;
+    width:40%;
+}
+
+#info {
+    height:50px;
+    width: 22%;
+    float: right;
+    margin-top: -3%;
+    margin-left: 0%;
+}
+
+.social{
+    margin-right: 0%;  
+    margin-top: 2%;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+/* End of Header*/
+
+/* Start of Menu Page */
+#main{
+    width: 100%;
+    background: pink;
+}
+
+    /* Menu Bar */
+    #menubar{
+        height: 30px;
+        width: 100%;
+        margin-top: 0.5%;
+        background-color: rgb(63, 63, 228);
+    }
+
+    #menu{
+        margin-left: 10%;
+        float: left;
+        width: 90%;
+    }
+
+    .mbutton{
+        font-style: Bold;
+        padding-left: 3%;
+    }
+
+    a{
+        text-decoration: none;
+        color: white !important;
+    }
+    /* End of Menu Bar */
+
+    /* Start of shop Page */
+    #shoppage {
+        width: 97%;
+        float: left;
+        margin-top: 1%;
+        margin-left: 2%;
+        display: inline-block;
+    }
+
+/* Start of Contents inside shop page */
+
+     #tile1{
+        height: 280px;
+        width:99%;
+        float: left;
+        margin-top: 0.5%;
+        margin-left: 0.5%;
+        border: 2px solid black;
+        }
+
+/* Start of shop details */
+    #shimg{
+        height: 250px;
+        width:30%;
+        position: absolute;
+        float: left;
+        margin-top: 1%;
+        margin-left: 1%;
+        border: 2px solid black;
+    }
+
+    #shname{
+        height: 50px;
+        width:60%;
+        position: absolute;
+        float: left;
+        margin-top: 1.5%;
+        margin-left: 33%;
+        border: 2px solid black;
+    }
+
+    #shadd{
+        height: 40px;
+        width:50%;
+        position: absolute;
+        float: left;
+        margin-top: 6.5%;
+        margin-left: 33%;
+        border: 2px solid black;
+    }
+
+    #keywords{
+        height: 30px;
+        width:40%;
+        position: absolute;
+        float: left;
+        margin-top: 10.5%;
+        margin-left: 33%;
+        border: 2px solid black;
+    }
+
+    #shrat{
+        height: 25px;
+        width:5%;
+        position: absolute;
+        float: left;
+        margin-top: 14%;
+        margin-left: 33%;
+        border: 2px solid black;
+    }
+    /* End of Shop details */
+
+   
+    #tile2 {
+        height: 950px;
+        width: 98%;
+        float: left;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-bottom: 2%;
+        border: 2px solid black;
+    }
+
+/* Start of shop menu */
+
+      #shfood{
+        height: 50px;
+        width:60%;
+        margin-top: 0.5%;
+        margin-left:25%;
+        border: 2px solid black;
+    }
+
+    #shfilter {
+        height: 500px;
+        width: 15%;
+        position: absolute;
+        margin-top: 8.5%;
+        margin-left: 1%;
+        border: 2px solid black;
+    }
+
+    #container{
+        height: 800px;
+        width: 82%;
+        display: inline-block;
+        margin-top: 1.5%;
+        margin-left: 17%;
+    }
+
+    .cakebox{
+        height:350px;
+        width: 22%;
+        margin-left: 3%;
+        margin-top: 3%;
+        border: 2px solid black;
+        float: left;
+    }
+/* End of shop menu */
+/* End of Menu Page*/
+
+/* Start Of Footer */
+#footer{
+    height:250px;
+    width:100%;
+    background-color:black;
+    display: inline-block;
+}
+
+#headerbox{
+    height:180px;
+    width: 95%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+#logobox{
+    height:60px;
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 4%; 
+}
+
+#logobox > img{
+    height:60px;
+    margin-top: -11%;
+    margin-left: -7%;
+}
+
+#hb1{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 7%;
+}
+
+.hbheading{
+    height: 45px;
+    width:60%;
+    margin-top: 1%;
+    margin-left: 8%;
+    float: left;
+}
+
+.hbhcss{
+    margin-top:2%;
+    margin-left:1%;
+    font-size:30px;
+    color:white;
+    font-family: calibri;
+}
+
+.hbbox{
+    height: 85px;
+    width:80%;
+    margin-top: 17%;
+    margin-left: 12%;
+}
+
+#hb2{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+#hb3{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+#hb4{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+.hbbcss{
+    font-size:15px;
+    margin-left:1%;
+    color:rgb(168, 159, 159);
+    padding-top: 2%;
+}
+
+#social {
+    float: left;
+    margin-right: 1%;
+}
+
+.si{
+    height: 30px;
+    width: 30px;
+}
+
+/* End of Footer */
+
+
+

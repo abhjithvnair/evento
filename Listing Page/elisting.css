@@ -77,11 +77,12 @@ select{
 #menu{
     margin-left: 10%;
     float: left;
+    width: 100%;
 }
 
 .mbutton{
     font-style: Bold;
-    padding-left: 3%;
+    padding-left: 2%;
 }
 
 a{

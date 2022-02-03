@@ -327,7 +327,7 @@ select{
     height:250px;
     width:100%;
     background-color:black;
-    display: inline-block;
+    float:left;
 }
 
 #headerbox{

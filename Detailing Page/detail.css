@@ -1,0 +1,170 @@
+body{
+    margin:auto;
+}
+
+/* Start of Header */
+header {
+    height:68px;
+}
+
+#logo{
+    height: 60px;
+    width: 20%;
+}
+
+.icon{
+    height:60px;
+    width: 100%;
+}
+
+.dropdown{
+    height: 60px;
+    width: 50%;
+    float: left;
+    margin-left: 23%;
+    margin-top: -4%;
+}
+
+select{
+    height:50px;
+    width:40%;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.city-select{
+    height:50px;
+    width:40%;
+}
+
+#info {
+    height:50px;
+    width: 22%;
+    float: left;
+    margin-top: -3%;
+    margin-left: 77%;
+    position: absolute;
+}
+
+.social{
+    margin-right: 0%;  
+    margin-top: 2%;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+/* End of Header*/
+
+#main{
+    height: 500px;
+    width: 100%;
+    background: pink;
+}
+
+/* Start Of Footer */
+#footer{
+    height:250px;
+    width:100%;
+    background-color:black;
+    display: inline-block;
+}
+
+#headerbox{
+    height:180px;
+    width: 95%;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+#logobox{
+    height:60px;
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 4%; 
+}
+
+#logobox > img{
+    height:60px;
+    margin-top: -11%;
+    margin-left: -7%;
+}
+
+#hb1{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 7%;
+}
+
+.hbheading{
+    height: 45px;
+    width:60%;
+    margin-top: 1%;
+    margin-left: 8%;
+    float: left;
+}
+
+.hbhcss{
+    margin-top:2%;
+    margin-left:1%;
+    font-size:30px;
+    color:white;
+    font-family: calibri;
+}
+
+.hbbox{
+    height: 85px;
+    width:80%;
+    margin-top: 17%;
+    margin-left: 12%;
+}
+
+#hb2{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+#hb3{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+#hb4{
+    height:150px;
+    width:22%;
+    float: left;
+    margin-top: -2.5%;
+    margin-left: 1%;
+}
+
+.hbbcss{
+    font-size:15px;
+    margin-left:1%;
+    color:rgb(168, 159, 159);
+    padding-top: 2%;
+}
+
+#social {
+    float: left;
+    margin-right: 1%;
+}
+
+.si{
+    height: 30px;
+    width: 30px;
+}
+
+/* End of Footer */
