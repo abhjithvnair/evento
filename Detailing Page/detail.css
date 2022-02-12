@@ -61,11 +61,175 @@ a{
 }
 /* End of Header*/
 
+/* Start  of detail Page */
 #main{
-    height: 500px;
+    height: 1000px;
     width: 100%;
-    background: pink;
 }
+
+ /* Start of Menu Bar */
+ #menubar{
+    height: 30px;
+    width: 100%;
+    margin-top: 0.5%;
+    background-color: rgb(63, 63, 228);
+}
+
+#menu{
+    margin-left: 10%;
+    float: left;
+    width: 90%;
+}
+
+.mbutton{
+    font-style: Bold;
+    padding-left: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: white !important;
+}
+/* End of Menu Bar */
+
+#bord{
+    height: 800px;
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 5%;
+    border: 1px solid black;
+    float: left;
+}
+
+/*Start of photo section of detailing page*/
+
+#boxbor1{
+    height: 600px;
+    width: 45%;
+    margin-top: 1%;
+    margin-left: 3%;
+    border: 1px solid black;
+    float: left;
+}
+
+#frame1{
+    height: 500px;
+    width: 26%;
+    margin-top: 8%;
+    margin-left: 1%;
+    border: 1px solid black;
+    float: left;   
+}
+
+#frame2{
+    height: 395px;
+    width: 68%;
+    margin-top: 15%;
+    margin-left: 3%;
+    border: 1px solid black;
+    float: left;  
+}
+/*End of photo section of detailing page*/
+
+/*Start of description section of detailing page*/
+#boxbor2{
+    height: 600px;
+    width: 45%;
+    margin-top: 1%;
+    margin-left: 1%;
+    border: 1px solid black;
+    float: left;
+}
+
+#itframe{
+    height:140px;
+    width: 80%;
+    float:left;
+    margin-top: 4%;
+    margin-left: 3%;
+    border: 1px solid black;
+}
+
+#itname{
+    height: 44px;
+    width: 80%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 1%;
+    border: 1px solid black;
+}
+
+#itrat{
+    height: 36px;
+    width: 12%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+    border: 1px solid black;
+}
+
+#itprice{
+    height: 33px;
+    width: 27%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+    border: 1px solid black;
+}
+
+#pricetag{
+    height: 19px;
+    width: 32%;
+    float: left;
+    margin-top: 10%;
+    margin-left: -24%;
+    color:grey;
+}
+
+#selectionframe{
+    height:140px;
+    width: 80%;
+    float:left;
+    margin-top: 1%;
+    margin-left: 3%;
+    border: 1px solid black;
+}
+
+#selectweight{
+    height: 65px;
+    width: 80%;
+    float: left;
+    margin-top: 0%;
+    margin-left: 2%;
+    border: 1px solid black;
+}
+
+.frameheading{
+    height: 25px;
+    width: 40%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+    color:Black;
+    font-family: Georgia;  
+}
+
+.quantitybox{
+    
+}
+
+#selecttype{
+    height: 65px;
+    width: 49%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 2%;
+    border: 1px solid black;
+}
+/*End of description section of detailing page*/
+
+/*End of main body of detailing page*/
+
 
 /* Start Of Footer */
 #footer{
