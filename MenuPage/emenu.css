@@ -108,18 +108,22 @@ a{
         float: left;
         margin-top: 0.5%;
         margin-left: 0.5%;
-        border: 2px solid black;
         }
 
 /* Start of shop details */
     #shimg{
-        height: 250px;
+        height: 252px;
         width:30%;
         position: absolute;
         float: left;
-        margin-top: 1%;
+        margin-top: 0.5%;
         margin-left: 1%;
-        border: 2px solid black;
+    }
+
+    #shimg > img{
+        width:100%;
+        height:250px;
+        border-radius: 10%;
     }
 
     #shname{
@@ -129,7 +133,17 @@ a{
         float: left;
         margin-top: 1.5%;
         margin-left: 33%;
-        border: 2px solid black;
+    }
+
+    .shnamebox{
+        height: 55px;
+        width:100%;
+        margin-top: 0.5%;
+        margin-left: 1%;
+        font-size:35px;
+        font-weight:bold;
+        font-family: Georgia;
+        color:rgb(75, 65, 218);
     }
 
     #shadd{
@@ -137,9 +151,17 @@ a{
         width:50%;
         position: absolute;
         float: left;
-        margin-top: 6.5%;
+        margin-top: 5.5%;
         margin-left: 33%;
-        border: 2px solid black;
+    }
+
+    #shaddbox{
+        font-size:28px;
+        width:100%;
+        margin-top: 0%;
+        margin-left: 1%;
+        font-family: Georgia;
+        color:rgba(40, 111, 218, 0.534);  
     }
 
     #keywords{
@@ -147,31 +169,53 @@ a{
         width:40%;
         position: absolute;
         float: left;
-        margin-top: 10.5%;
+        margin-top: 9%;
         margin-left: 33%;
-        border: 2px solid black;
+    }
+
+    #keybox{
+        font-size:20px;
+        width:100%;
+        margin-top: 0%;
+        margin-left: 1%;
+        font-family: Georgia;
+        color: grey;  
     }
 
     #shrat{
-        height: 25px;
+        height: 30px;
         width:5%;
         position: absolute;
         float: left;
-        margin-top: 14%;
-        margin-left: 33%;
-        border: 2px solid black;
+        margin-top: 12%;
+        margin-left: 33.75%;
+        background-color:rgb(24, 133, 24);
     }
+    
+    .star > img{
+        height:20px;
+        width: 45%;
+        margin-left: 53%;
+        margin-top: 5.5%;
+    }
+    
+    .number{
+        font-size: 18px;
+        margin-left: 8%;
+        margin-top: -31%;
+        color: white;
+    }
+    
     /* End of Shop details */
 
    
     #tile2 {
-        height: 950px;
+        height: 2700px;
         width: 98%;
         float: left;
         margin-top: 1%;
         margin-left: 1%;
         margin-bottom: 2%;
-        border: 2px solid black;
     }
 
 /* Start of shop menu */
@@ -181,11 +225,28 @@ a{
         width:60%;
         margin-top: 0.5%;
         margin-left:25%;
-        border: 2px solid black;
     }
 
+    /* Searching Box */
+    #search{
+        height:50px;
+        width:55%;
+        position:absolute;
+        border-radius: 5%;
+        box-shadow: 1px 2px 1px grey;   
+    }
+
+    #slength{
+        width:100%;
+        height:60px;
+        font-size:23px;
+    }
+    /* End of Searching Box */
+
+    /* Start of Filter Box*/
+
     #shfilter {
-        height: 500px;
+        height: 600px;
         width: 15%;
         position: absolute;
         margin-top: 8.5%;
@@ -193,20 +254,168 @@ a{
         border: 2px solid black;
     }
 
-    #container{
-        height: 800px;
+    #filterbox{
+        border: 1px solid grey;
+        box-shadow: 1px 0px 1px grey;
+    }
+    
+    #fh{
+        height:35px;
+        width:90%;
+        margin-top:4%;
+        margin-left: 5%;
+    }
+    
+    #fhc{
+        font-size:33px;
+        text-align: center;
+        margin-top: -5%;
+        margin-left: -1%;
+        color:rgb(71, 63, 63)
+    }
+    
+    .category0{
+        height:260px;
+        width:90%;
+        margin-left:5%;
+        margin-top: 8%;
+        box-shadow: 1px 1px 1px grey;
+    }
+    
+    #ch0{
+        height:40px;
+        width:94%;    
+        margin-left: 3%;
+        margin-top: 4%;
+        font-size:26px;
+    }
+    
+    #chbox0{
+        height:180px;
+        width:94%;    
+        margin-left: 3%;
+        margin-top: 4%;
+    }
+    
+    #radiobox{
+        height:195px;
+        width:88%;    
+        margin-left: 6%;
+        margin-top: 0.5%;
+    }
+    
+    .category1{
+        height:235px;
+        width:90%;
+        margin-left:5%;
+        margin-top: 8%;
+        box-shadow: 1px 1px 1px grey;
+    }
+    
+    #ch1{
+        height:40px;
+        width:94%;    
+        margin-left: 3%;
+        margin-top: 4%;
+        font-size:23px;
+    }
+    
+    #chbox1{
+        height:155px;
+        width:94%;    
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    
+    #checkbox{
+        height:165px;
+        width:88%;    
+        margin-left: 6%;
+        margin-top: 2%;
+    }
+    
+    /*  ENd of Filter Section */
+
+    #container0{
+        height: 480px;
         width: 82%;
         display: inline-block;
         margin-top: 1.5%;
         margin-left: 17%;
     }
 
+    .containerheading{
+        height: 45px;
+        width: 30%;
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+
+    #container1{
+        height: 820px;
+        width: 82%;
+        display: inline-block;
+        margin-left: 17%;
+    }
+
+    #container2{
+        height: 480px;
+        width: 82%;
+        display: inline-block;
+        margin-left: 17%;
+    }
+
+    #container3{
+        height: 480px;
+        width: 82%;
+        display: inline-block;
+        margin-left: 17%;
+    }
+
+    .box1{
+        height: 270px;
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .box1 > img{
+        height: 270px;
+        width:100%;
+        border-radius: 5%;
+    }
+
+    .box2{
+        height: 80px;
+        width: 100%;
+        border: 1px solid black;
+    }
+
+    .itemname{
+        height: 35px;
+        width: 100%;
+        margin-top:1%;
+        border: 1px solid black;
+    }
+
+    .itemrate{
+        height: 20px;
+        width: 100%;
+        margin-top:3%;
+        border: 1px solid black;
+    }
+
+    .chbox{
+        font-size:28px;
+        font-style: bold;
+        font-family: Georgia;
+        color: red;
+    }
+
     .cakebox{
         height:350px;
         width: 22%;
         margin-left: 3%;
-        margin-top: 3%;
-        border: 2px solid black;
+        margin-top: 2%;
         float: left;
     }
 /* End of shop menu */
