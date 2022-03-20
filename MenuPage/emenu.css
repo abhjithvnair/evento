@@ -339,7 +339,6 @@ a{
     #container0{
         height: 480px;
         width: 82%;
-        display: inline-block;
         margin-top: 1.5%;
         margin-left: 17%;
     }
@@ -354,28 +353,24 @@ a{
     #container1{
         height: 820px;
         width: 82%;
-        display: inline-block;
         margin-left: 17%;
     }
 
     #container2{
         height: 480px;
         width: 82%;
-        display: inline-block;
         margin-left: 17%;
     }
 
     #container3{
         height: 480px;
         width: 82%;
-        display: inline-block;
         margin-left: 17%;
     }
 
     .box1{
         height: 270px;
         width: 100%;
-        border: 1px solid black;
     }
 
     .box1 > img{
@@ -395,7 +390,12 @@ a{
         width: 100%;
         margin-top:1%;
         border: 1px solid black;
+        font-size: 25px;
+        color:black;
+        text-align:center;
     }
+
+
 
     .itemrate{
         height: 20px;
